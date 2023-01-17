@@ -17,7 +17,7 @@ import jakarta.persistence.Table;
  * @author kbra
  */
 @Entity
-@Table(name="tb_emails")
+@Table(name="Tb_Emails")
 public class Nombre {
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
